@@ -103,3 +103,6 @@ android/configs/android-*.cfg
 
 # out
 out
+
+# build
+buildv*
