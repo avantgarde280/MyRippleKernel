@@ -1,4 +1,4 @@
-[![Build Status](https://semaphoreci.com/api/v1/rupansh/chimera_land-current/branches/lineage-16-0/badge.svg)](https://semaphoreci.com/rupansh/chimera_land-current)
+[![Build Status](https://semaphoreci.com/api/v1/myrippleapps/MyRippleKernel/branches/lineage-16-0/badge.svg)](https://semaphoreci.com/myrippleapps/MyRippleKernel)
 
         Linux kernel release 3.x <http://kernel.org/>
 
