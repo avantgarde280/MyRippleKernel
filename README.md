@@ -1,4 +1,4 @@
-[![Build Status](https://semaphoreci.com/api/v1/myrippleapps/MyRippleKernel/branches/lineage-16-0/badge.svg)](https://semaphoreci.com/myrippleapps/MyRippleKernel)
+[![Build Status](https://semaphoreci.com/api/v1/myrippleapps/myripplekernel/branches/lineage-16-0/shields_badge.svg)](https://semaphoreci.com/myrippleapps/myripplekernel)
 
         Linux kernel release 3.x <http://kernel.org/>
 
