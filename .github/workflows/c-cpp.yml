@@ -1,0 +1,21 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ lineage-16.0 ]
+  pull_request:
+    branches: [ lineage-16.0 ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: configure
+      run: make O=out clean && make O=out mrproper
+    - name: make configuration file
+      run: make O=out ARCH=arm64 land_defconfig
+    - name: make build
+      run: make -j$(nproc --all) O=out
